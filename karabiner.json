@@ -33,6 +33,17 @@
                         ]
                     },
                     {
+                        "description": "Ctrl-[ As Escape",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "description": "ctrl-[ in programmer dvorak",
+                                "from": { "key_code": "2", "modifiers": { "mandatory": [ "left_control" ] } },
+                                "to": [ { "key_code": "escape" } ]
+                            }
+                        ]
+                    },
+                    {
                         "description": "Remap to Programmer Dvorak",
                         "manipulators": [
                             {
