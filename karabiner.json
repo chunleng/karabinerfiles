@@ -16,23 +16,6 @@
                 },
                 "rules": [
                     {
-                        "description": "Ctrl-tab Alternatives",
-                        "manipulators": [
-                            {
-                                "type": "basic",
-                                "description": "cmd+ctrl+n in programmer dvorak",
-                                "from": { "key_code": "l", "modifiers": { "mandatory": [ "left_control", "left_command" ] } },
-                                "to": [ { "key_code": "tab", "modifiers": [ "left_control" ] } ]
-                            },
-                            {
-                                "type": "basic",
-                                "description": "cmd+ctrl+p in programmer dvorak",
-                                "from": { "key_code": "r", "modifiers": { "mandatory": [ "left_control", "left_command" ] } },
-                                "to": [ { "key_code": "tab", "modifiers": [ "left_control", "left_shift" ] } ]
-                            }
-                        ]
-                    },
-                    {
                         "description": "Ctrl-[ As Escape",
                         "manipulators": [
                             {
