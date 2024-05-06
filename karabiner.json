@@ -19,6 +19,10 @@
                     "to": [ { "key_code": "caps_lock" } ]
                 },
                 {
+                    "from": { "key_code": "right_command" },
+                    "to": [ { "key_code": "left_shift", "modifiers": [ "left_control", "left_option" ] } ]
+                },
+                {
                     "from": { "key_code": "right_option" },
                     "to": [ { "key_code": "left_shift", "modifiers": [ "left_control", "left_option" ] } ]
                 },
