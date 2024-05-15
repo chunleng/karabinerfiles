@@ -6,18 +6,31 @@
     },
     "profiles": [
         {
-            "devices": [],
+            "devices": [
+                {
+                    "identifiers": {
+                        "is_game_pad": false,
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 834,
+                        "vendor_id": 1452
+                    },
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "left_control" },
+                            "to": [ { "key_code": "caps_lock" } ]
+                        },
+                        {
+                            "from": { "key_code": "caps_lock" },
+                            "to": [ { "key_code": "left_control" } ]
+                        }
+                    ],
+                    "treat_as_built_in_keyboard": false
+                }
+            ],
             "name": "Default profile",
             "selected": true,
             "simple_modifications": [
-                {
-                    "from": { "key_code": "caps_lock" },
-                    "to": [ { "key_code": "left_control" } ]
-                },
-                {
-                    "from": { "key_code": "left_control" },
-                    "to": [ { "key_code": "caps_lock" } ]
-                },
                 {
                     "from": { "key_code": "right_command" },
                     "to": [ { "key_code": "left_shift", "modifiers": [ "left_control", "left_option" ] } ]
