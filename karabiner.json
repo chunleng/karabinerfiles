@@ -26,6 +26,26 @@
                         }
                     ],
                     "treat_as_built_in_keyboard": false
+                },
+                {
+                    "identifiers": {
+                        "is_game_pad": false,
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 355,
+                        "vendor_id": 1241
+                    },
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "left_control" },
+                            "to": [ { "key_code": "caps_lock" } ]
+                        },
+                        {
+                            "from": { "key_code": "caps_lock" },
+                            "to": [ { "key_code": "left_control" } ]
+                        }
+                    ],
+                    "treat_as_built_in_keyboard": false
                 }
             ],
             "name": "Default profile",
